@@ -1,0 +1,214 @@
+.top-container {
+    height: 100vh;
+    width: 100%;
+    background:url('../../tamara-bellis-0C2qrwkR1dI-unsplash.jpg');
+    background-size: cover;
+    position: relative;
+
+}
+
+
+
+.navbar {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding:  0 50px;
+    z-index: 2;
+    position: relative;
+    
+}
+
+.navbar img {
+    height: 40px;
+    object-fit: contain;
+    margin-right: 80px;
+    margin-bottom: 10px;
+    
+}
+
+.profile img {
+    height: 30px;
+    width: 30px;
+    border: 2px solid white;
+    margin: 0;
+    border-radius: 50px;
+    object-fit: cover;
+
+}
+
+.username {
+    font-weight: 500;
+}
+
+.profile {
+    width: 200px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+
+.navbar span {
+    font-size: 18px;
+    color: white;
+    margin: 0 20px;
+    cursor: pointer;
+    
+}
+
+.profile span {
+  
+    margin: 0 12px;
+    
+    
+}
+
+.navbar span:hover {
+    border-bottom: 1px solid white;
+    
+}
+
+.profile span:hover {
+  
+    border-bottom: none
+    
+    
+}
+
+
+.header-container {
+    height: calc(100vh - 90px);
+    width: 100%;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.black-layer {
+    background: rgba(0, 0, 0, 0.12);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+.jumbo-container {
+    width: 60%;
+    z-index: 2;
+}
+
+.jumbo-container button:hover {
+ 
+    background: rgb(160, 26, 62);
+    
+}
+
+.jumbo-container button {
+    padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  /* show a hand cursor on hover; some argue that we
+  should keep the default arrow cursor for buttons */
+  cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    text-decoration: none;
+    padding: 16px 38px;
+    background: rgb(238, 72, 117);
+    outline: none;
+}
+
+.jumbo-container p {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;;
+}
+
+.footer-distributed{
+	background-color: #e4e4e4;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 45px 50px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.footer-distributed .footer-left p{
+	color:  #000000;
+	font-size: 14px;
+	margin: 0;
+}
+
+
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+    font-size:15px;
+    cursor: pointer;
+	color:  #000000;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+    color:  inherit;
+    margin-right: 20px;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color:  #21253C;
+	border-radius: 2px;
+
+	
+	color: #0b0b0b;
+	text-align: center;
+	line-height: 35px;
+
+	margin-left: 3px;
+}
+
+.copy {
+    font-weight: bold;
+    font-size: 16px;
+}
+

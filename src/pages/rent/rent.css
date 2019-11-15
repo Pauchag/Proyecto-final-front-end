@@ -1,0 +1,139 @@
+.top-container {
+    width: 100%;
+   
+}
+
+
+.r-navbar {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding:  0 50px;
+    z-index: 2;
+    position: relative;
+    background: black;
+    
+}
+
+.r-navbar img {
+    height: 30px;
+    object-fit: contain;
+    margin-right: 80px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.r-navbar span {
+    font-size: 18px;
+    color: white;
+    margin: 0 20px;
+    cursor: pointer;
+    
+}
+
+
+
+.r-navbar span:hover {
+    border-bottom: 1px solid white;
+    
+}
+
+.card .price {
+    font-weight: 600;
+}
+
+.rent-container {
+    display: flex;
+}
+
+.left {
+    flex-basis: 15%;
+    padding: 26px;
+    text-align: left;
+}
+
+.dresses-container {
+
+    flex: 1;
+   display: flex;
+   flex-wrap: wrap;
+   
+  
+   margin: 0 auto;
+   padding: 30px 16px;
+   align-items: center;
+   justify-content: center;
+   
+    
+}
+
+.left-header {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    background: rgb(244, 31, 88);
+    padding: 5px 10px;
+    color: white;
+}
+
+
+
+.left ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.left ul li {
+    margin: 10px 0px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.left ul li:hover {
+    text-decoration: underline;
+}
+
+.profile img {
+    height: 30px;
+    width: 30px;
+    border: 2px solid white;
+    margin: 0;
+    border-radius: 50px;
+    object-fit: cover;
+
+}
+
+.username {
+    font-weight: 500;
+}
+
+.profile {
+    width: 200px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.profile span {
+  
+    margin: 0 12px;
+    
+    
+}
+
+.profile span:hover {
+  
+    border-bottom: none
+    
+    
+}

@@ -1,0 +1,31 @@
+.card {
+    display: flex;
+    width: 250px;
+    height: 470px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+   
+}
+
+.dress-name {
+    cursor: pointer;
+}
+
+.dress-name:hover {
+    text-decoration: underline;
+}
+
+.card img {
+  
+    width: 100%;
+    height: 350px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.card span {
+    margin-bottom: 12px;
+}
+
